@@ -38,7 +38,13 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 
+/*------------------------- ROUTES -------------------------*/
+const indexRoute = require('./routes/indexRoute');
 
+
+
+/*------------------------- URL ROUTES -------------------------*/
+app.use('/', indexRoute);
 
 
 
