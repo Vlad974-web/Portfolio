@@ -11,6 +11,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  min-height: 110vh;
+}
+
 section {
   padding: 100px 200px;
 }
