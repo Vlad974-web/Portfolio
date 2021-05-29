@@ -8,8 +8,13 @@ header {
   left: 0;
   width: 100%;
   padding: 15px 100px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(34 24 25);
   transition: 0.5s ease;
+}
+
+header.sticky {
+  background: #3a6cf4;
+  padding: 10px 200px;
 }
 
 header .marque {
@@ -34,4 +39,8 @@ header .nav a {
 
 header .nav a:hover {
   color: #3a6cf4;
+}
+
+header.sticky .nav a:hover {
+  color: #000;
 }
