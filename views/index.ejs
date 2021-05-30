@@ -1,66 +1,89 @@
 <%- include('partials/header.ejs') %>
 <%- include('partials/navbar.ejs') %>
 <!-- PRESENTATION -->
-  <section class="main" id="main">
-    <div class="content">
-      <h2>Bonjour, je suis<br><span>Vladislav GAVRILOV</span></h2>
-      
-      <div class="animated_text">
-        <h3>Junior</h3>
-        <h3>Web Developpeur</h3>
-      </div>
+<section class="main" id="main">
+  <div class="content">
+    <h2>Bonjour, je suis<br><span>Vladislav GAVRILOV</span></h2>
 
-      <!-- BUTTON SUR LE LIEN MES PROJETS -->
-      <a href="#" class="btn">Voir mes projets</a>
+    <div class="animated_text">
+      <h3>Junior</h3>
+      <h3>Web Developpeur</h3>
+    </div>
 
-      <!-- RESEAUX SOCIAUX -->
-      <!-- <div class="media_icons">
+    <!-- BUTTON SUR LE LIEN MES PROJETS -->
+    <a href="#" class="btn">Voir mes projets</a>
+
+    <!-- RESEAUX SOCIAUX -->
+    <!-- <div class="media_icons">
         <a href="#"><i class="fab fa-facebook"></i></a>
         <a href="#"><i class="fab fa-instagram-square"></i></a>
         <a href="#"><i class="fab fa-linkedin"></i></a>
         <a href="#"><i class="fab fa-github"></i></a>
       </div> -->
-      <ul>
-        <li><a href="#" class="social"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="#" class="social"><i class="far fa-envelope"></i></a></li>
-        <li><a href="#" class="social"><i class="fab fa-linkedin-in"></i></a></li>
-        <li><a href="#" class="social"><i class="fab fa-github"></i></a></li>
-      </ul>
+    <ul>
+      <li><a href="#" class="social"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#" class="social"><i class="far fa-envelope"></i></a></li>
+      <li><a href="#" class="social"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href="#" class="social"><i class="fab fa-github"></i></a></li>
+    </ul>
 
+  </div>
+</section>
+
+<!-- ABOUT ME SECTION -->
+<section class="about" id="about">
+
+  <!-- TITLE ABOUT ME -->
+  <div class="title">
+    <h2 class="section-title">Qui suis-je?</h2>
+  </div>
+
+  <!-- IMAGE AND DESCRIPTION -->
+  <div class="content">
+
+    <!-- IMAGE ABOUT ME -->
+    <div class="column col-left">
+      <div class="img-card">
+        <img src="/images/Linkedin-Vlad-2.jpg" alt="Photo_about">
+      </div>
     </div>
-  </section>
 
-  <!-- ABOUT ME SECTION -->
-  <section class="about" id="about">
+    <!-- DESCRIPTION ABOUT ME -->
+    <div class="column col-right">
+      <h2 class="content-title">Bonjour ! Bienvenue sur mon portfolio !</h2>
+      <p class="text">Je suis Vladislav GAVRILOV, un <strong>Développeur web junior</strong> passionné par les nouvelles
+        technologies. J’ai récemment obtenu mon diplôme à l’issue d’une formation <strong>de développeur web et web
+          mobile</strong> , que j’ai entamé pour me reconvertir professionnellement.<br>
+        Cette formation m’a permis de progresser dans l’identification des problèmes et dans leur résolution. J’ai
+        également appris plusieurs langages de programmation.<br>
+        Aujourd’hui, j'ambitionne de mettre mes nouvelles compétences au profit d’un projet, c’est pourquoi je recherche
+        <strong>un CDI ou une alternance.</strong><br>
+        Vous doutez toujours? Contactez-moi pour que nous puissions nous rencontrer et étudier votre projet.
+      </p>
+      <div class="wrapper">
+        <div class="buts">
+          <div class="icons">
+            <i class="fab fa-facebook"></i>
+          </div>
+          <span>Facebook</span>
+        </div>
 
-    <!-- TITLE ABOUT ME -->
-    <div class="title">
-      <h2 class="section-title">Qui suis-je?</h2>
-    </div>
+        <div class="buts">
+          <div class="icons">
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <span>LinKedin</span>
+        </div>
 
-    <!-- IMAGE AND DESCRIPTION -->
-    <div class="content">
-
-      <!-- IMAGE ABOUT ME -->
-      <div class="column col-left">
-        <div class="img-card">
-          <img src="/images/Linkedin-Vlad-2.jpg" alt="Photo_about">
+        <div class="buts">
+          <div class="icons">
+            <i class="fab fa-github"></i>
+          </div>
+          <span>GitHub</span>
         </div>
       </div>
-
-      <!-- DESCRIPTION ABOUT ME -->
-      <div class="column col-right">
-        <h2 class="content-title">Bonjour ! Bienvenue sur mon portfolio !</h2>
-        <p class="text">Je suis Vladislav GAVRILOV, un <strong>Développeur web junior</strong> passionné par les nouvelles technologies. J’ai récemment obtenu mon diplôme à l’issue d’une formation <strong>de développeur web et web mobile</strong> , que j’ai entamé pour me reconvertir professionnellement.<br>
-          Cette formation m’a permis de progresser dans l’identification des problèmes et dans leur résolution. J’ai également appris plusieurs langages de programmation.<br>
-          Aujourd’hui, j'ambitionne de mettre mes nouvelles compétences au profit d’un projet, c’est pourquoi je recherche <strong>un CDI ou une alternance.</strong><br>
-          Vous doutez toujours? Contactez-moi pour que nous puissions nous rencontrer et étudier votre projet.
-        </p>
-      </div>
-
-      <!-- ICONS SOCIAL -->
-      
     </div>
-  </section>
+  </div>
+</section>
 
 <%- include('partials/footer.ejs') %>
