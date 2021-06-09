@@ -11,12 +11,12 @@
     </div>
 
     <!-- BUTTON SUR LE LIEN MES PROJETS -->
-    <a href="#" class="btn">Voir mes projets</a>
+    <a href="#projet" class="btn">Voir mes projets</a>
     <ul>
-      <li><a href="#" class="social"><i class="fab fa-facebook-f"></i></a></li>
-      <li><a href="#" class="social"><i class="far fa-envelope"></i></a></li>
-      <li><a href="#" class="social"><i class="fab fa-linkedin-in"></i></a></li>
-      <li><a href="#" class="social"><i class="fab fa-github"></i></a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=100005918256998" target="_blank" title="Facebook" class="social"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="mailto: vladislav_gavrilov05@yahoo.fr" title="Email" class="social"><i class="far fa-envelope"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/vladislav-gavrilov-7732b0212/" target="_blank" title="Linkedin" class="social"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href="https://github.com/Vlad974-web" target="_blank" title="GitHub" class="social"><i class="fab fa-github"></i></a></li>
     </ul>
 
   </div>
@@ -57,21 +57,21 @@
       <div class="wrapper">
         <div class="buts">
           <div class="icons">
-            <i class="fab fa-facebook"></i>
+            <a href="https://www.facebook.com/profile.php?id=100005918256998" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
           </div>
           <span>Facebook</span>
         </div>
 
         <div class="buts">
           <div class="icons">
-            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/vladislav-gavrilov-7732b0212/" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
           </div>
           <span>LinKedin</span>
         </div>
 
         <div class="buts">
           <div class="icons">
-            <i class="fab fa-github"></i>
+            <a href="https://github.com/Vlad974-web" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
           </div>
           <span>GitHub</span>
         </div>
@@ -128,28 +128,117 @@
 <!-------------------------------- PROJETS SECTION -->
 <section class="projet" id="projet">
 
-  <!-- PROJET TITLE -->
+  <!-- TITLE SECTION -->
   <div class="title">
     <h2 class="section-title">Mes Projets</h2>
-    <span class="section_subtitle">Le travail le plus récent</span>
+    <span class="section__subtitle">Le travail le plus récent</span>
   </div>
 
-  <!-- CONTENT PROJET -->
-  <div class="portfolio_container container">
-    <div>
-      <div class="portfolio_content grid">
-        <a href=""><img src="/images/first_site_exam.png" alt="Projet Travel Planet" class="portfolio_img"></a>
-        <div class="portfolio_data">
-          <h3 class="portfolio_title">Le Travel Planet</h3>
-          <p class="portfolio_description">
-            C'est un blog de voyage. La création Travel Planet pour partager avec les visiteurs les voyages.
-          </p>
-          <a href="#" class="btn btn-primary portfolio_button">
-            Voir le site
-            <i class="fas fa-arrow-right button_icon"></i>
+  <!-- PROJETS -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 20rem;">
+          <a href="https://vladislav-gavrilov.fr/" target="_blank" title="En savoir plus">
+            <img src="/images/first_site_exam.png" class="card-img-top" alt="Projet Travel Planet">
           </a>
+          <div class="card-body">
+            <h5 class="card-title">dfdsfdsfsdsqdsqdsdsqdsdfsdfdsfdfsdfd</h5>
+            <p class="card-text">fdsfdfdsf</p>
+            <a href="https://vladislav-gavrilov.fr/" class="btn btn-primary" target="_blank" title="Voir le projet"
+              style="font-size: 15px;">
+              Voir <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
       </div>
+    </div>
+  </div>
+  <!-- <div class="content">
+    <div class="column col-left">
+      <div class="img-card">
+        <a href="https://vladislav-gavrilov.fr/" title="En savoir plus" target="_blank">
+          <img src="/images/first_site_exam.png" alt="Projet Travel Planet" class="img-projet">
+        </a>
+      </div>
+    </div>
+
+    <div class="column col-right">
+      <h6>Design et Développement Web</h6>
+      <h1>Le Travel Planet</h1>
+      <ul class="techno-icon">
+        <li><i title="Javascript ES6 / ES7" class="fab fa-js"></i></li>
+        <li><i title="HTML 5" class="fab fa-html5"></i></li>
+        <li><i title="CSS 3" class="fab fa-css3-alt"></i></li>
+        <li><i title="Bootstrap 4" class="fab fa-bootstrap"></i></li>
+        <li><i title="NodeJS" class="fab fa-node-js"></i></li>
+        <li><i title="MongoDB" class="devicon-mongodb-plain-wordmark colored"></i></li>
+      </ul>
+    </div>
+  </div> -->
+</section>
+
+
+<!-------------------------------- CONTACT SECTION -->
+<section class="contact" id="contact">
+
+  <!-- TITLE SECTION -->
+  <div class="title">
+    <h2 class="section-title">CONTACTEZ-MOI!</h2>
+  </div>
+
+  <!-- PAGE CONTACT -->
+  <div class="contact-center container">
+
+    <!-- LEFT CONTACT -->
+    <div class="left">
+      <h2>Entrer en contact</h2>
+      <p>N'hésitez pas à prendre contact avec moi pour en savoir plus</p>
+
+      <!-- NAME -->
+      <div>
+        <span class="icon"><i class="fas fa-user"></i></span>
+        <span class="content">
+          <h3 class="contact__left">Nom/Prenom</h3>
+          <span>GAVRILOV Vladislav</span>
+        </span>
+      </div>
+
+      <!-- LOCATION -->
+      <div>
+        <span class="icon"><i class="fas fa-map-pin"></i></span>
+        <span class="content">
+          <h3>Location</h3>
+          <span>La Roche sur Yon</span>
+        </span>
+      </div>
+
+      <!-- EMAIL -->
+      <div>
+        <span class="icon"><i class="far fa-envelope"></i></span>
+        <span class="content">
+          <h3>Email</h3>
+          <a href = "mailto: vladislav_gavrilov05@yahoo.fr" class="envoyez__email">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          Envoyer mail</a>
+        </span>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right">
+      <form class="form">
+        <h2>Envoyez-moi un message</h2>
+        <div>
+          <input type="text" placeholder="Entrez votre nom..." required>
+          <input type="email" placeholder="Entrez votre email..." required>
+        </div>
+        <input type="text" placeholder="Précisez l'objet de votre message..." required>
+        <textarea name="" cols="30" rows="10" placeholder="Écrivez votre message ..." required></textarea>
+      </form>
     </div>
   </div>
 </section>

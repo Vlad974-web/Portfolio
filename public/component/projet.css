@@ -1,18 +1,22 @@
-.protfolio_container {
-  overflow: initial;
+.section__subtitle {
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
-.portfolio_content {
-  padding: 0 1.5rem;
+.btn-primary:hover .fa-arrow-right {
+  transform: translateX(6px);
 }
 
-.portfolio_img {
-  width: 265px;
-  border-radius: .5rem;
-  justify-self: center;
+
+/* RESPONSIVE */
+@media screen and (max-width: 435px) {
+  .card {
+    right: 25px;
+  }
 }
 
-.portfolio_title {
-  font-size: 18px;
-  margin-bottom: 8px;
+@media screen and (max-width: 392px) {
+  .card {
+    right: 40px;
+  }
 }
