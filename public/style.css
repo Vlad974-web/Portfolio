@@ -2,6 +2,7 @@
 @import url('component/navbar.css');
 @import url('component/about.css');
 @import url('component/skills.css');
+@import url('component/projet.css');
 /*==================== GOOGLE FONTS ====================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
@@ -19,5 +20,5 @@ body {
 }
 
 section {
-  padding: 100px 200px;
+  padding: 100px 60px;
 }

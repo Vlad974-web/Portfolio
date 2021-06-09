@@ -1,0 +1,53 @@
+.atouts {
+  background-color: #000;
+}
+
+.skills .title .section-title {
+  color: #ffd100;
+}
+
+.services-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.service {
+  color: #fff;
+  background-color: #111;
+  padding: 32px;
+  text-align: center;
+  border-radius: 16px;
+  transition: all 300ms ease-in-out;
+}
+
+.service span {
+  color: #dd9a05;
+  font-size: 32px;
+  transition: all 300ms ease-in-out;
+}
+
+.service h2 {
+  font-size: 29px;
+  margin-bottom: 16px;
+}
+
+.service p {
+  font-size: 16px;
+  color: #f1f1f1;
+}
+
+.service:hover {
+  background-color: #dd9a05;
+}
+
+.service:hover span{
+  color: #fff;
+}
+
+/* =============== MEDIA QUERY =============== */
+@media screen and (max-width: 415px) {
+  .services-center {
+    margin-left: -25px;
+  }
+}

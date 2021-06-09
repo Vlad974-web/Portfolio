@@ -1,0 +1,17 @@
+.protfolio_container {
+  overflow: initial;
+}
+
+.portfolio_content {
+  padding: 0 1.5rem;
+}
+
+.portfolio_img {
+  width: 265px;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
+.portfolio_title {
+  
+}

@@ -82,43 +82,75 @@
 
 
 
-<!-------------------------------- SKILLS SECTION -->
-<section class="skills" id="skills">
+<!-------------------------------- STRENGTHS SECTION -->
+<section class="atouts" id="atouts">
 
-  <!-- SKILLS TITLE -->
+  <!-- STRENGHTS TITLE -->
   <div class="title">
-    <h2 class="section-title">Mes compétences</h2>
+    <h2 class="section-title">Mes Atouts</h2>
   </div>
 
-  <!-- ME SKILLS -->
-  <!-- SKILL ONE -->
-  <div class="service">
-    <span><i class="fas fa-pencil-alt"></i></span>
-    <h3>WEB DESIGN</h3>
-    <p>Développement de partie Front-End. <br><br>
-      Maquettage et Design du site. <br><br>
-      Optimisation de l'expérience utilisateur.
-    </p>
+  <div class="services-center container">
+    <!-- ATOUT -->
+    <!-- ATOUT ONE -->
+    <div class="service">
+      <span><i class="fas fa-pencil-alt"></i></span>
+      <h3>WEB DESIGN</h3>
+      <p>Développement de partie Front-End. <br><br>
+        Maquettage et Design du site. <br><br>
+        Optimisation de l'expérience utilisateur.
+      </p>
+    </div>
+
+    <!-- ATOUT TWO -->
+    <div class="service">
+      <span><i class="fas fa-laptop-code"></i></span>
+      <h3>DÉVELOPPEMENT WEB</h3>
+      <p>Développement de la partie Back-End.<br><br>
+        Sécurité et analyse des performances. <br><br>
+        Mise en place des fonctionnalités.
+      </p>
+    </div>
+
+    <!-- ATOUT THREE -->
+    <div class="service">
+      <span></span>
+      <h3>WEB DESIGN</h3>
+      <p>Développement de partie Front-End. <br><br>
+        Maquettage et Design du site. <br><br>
+        Optimisation de l'expérience utilisateur.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-------------------------------- PROJETS SECTION -->
+<section class="projet" id="projet">
+
+  <!-- PROJET TITLE -->
+  <div class="title">
+    <h2 class="section-title">Mes Projets</h2>
+    <span class="section_subtitle">Le travail le plus récent</span>
   </div>
 
-  <!-- SKILL TWO -->
-  <div class="service">
-    <span><i class="fas fa-laptop-code"></i></span>
-    <h3>DÉVELOPPEMENT WEB</h3>
-    <p>Développement de la partie Back-End. <br><br>
-      Sécurité et analyse des performances. <br><br>
-      Mise en place des fonctionnalités.
-    </p>
-  </div>
-
-  <!-- SKILL THREE -->
-  <div class="service">
-    <span></span>
-    <h3>WEB DESIGN</h3>
-    <p>Développement de partie Front-End. <br><br>
-      Maquettage et Design du site. <br><br>
-      Optimisation de l'expérience utilisateur.
-    </p>
+  <!-- CONTENT PROJET -->
+  <div class="portfolio_container container">
+    <div>
+      <div class="portfolio_content grid">
+        <a href=""><img src="/images/first_site_exam.png" alt="Projet Travel Planet" class="portfolio_img"></a>
+        <div class="portfolio_data">
+          <h3 class="portfolio_title">Le Travel Planet</h3>
+          <p class="portfolio_description">
+            C'est un blog de voyage. La création Travel Planet pour partager avec les visiteurs les voyages.
+          </p>
+          <a href="#" class="btn btn-primary portfolio_button">
+            Voir le site
+            <i class="fas fa-arrow-right button_icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 <%- include('partials/footer.ejs') %>
