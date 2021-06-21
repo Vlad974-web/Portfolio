@@ -1,5 +1,12 @@
 <%- include('partials/header.ejs') %>
 <%- include('partials/navbar.ejs') %>
+
+<!-- SCROLL TOP BUTTON -->
+<div class="scrollToTop-btn">
+  <i class="far fa-arrow-alt-circle-up"></i>
+</div>
+
+
 <!-- PRESENTATION -->
 <section class="main" id="main">
   <div class="content">
@@ -26,7 +33,7 @@
 <section class="about" id="about">
 
   <!-- TITLE ABOUT ME -->
-  <div class="title">
+  <div class="title reveal">
     <h2 class="section-title">Qui suis-je?</h2>
   </div>
 
@@ -34,14 +41,14 @@
   <div class="content">
 
     <!-- IMAGE ABOUT ME -->
-    <div class="column col-left">
+    <div class="column col-left reveal">
       <div class="img-card">
         <img src="/images/Linkedin-Vlad-2.jpg" alt="Photo_about">
       </div>
     </div>
 
     <!-- DESCRIPTION ABOUT ME -->
-    <div class="column col-right">
+    <div class="column col-right reveal">
       <h2 class="content-title">Bonjour ! Bienvenue sur mon portfolio !</h2>
       <p class="text">Je suis Vladislav GAVRILOV, un <strong>Développeur web junior</strong> passionné par les nouvelles
         technologies. J’ai récemment obtenu mon diplôme à l’issue d’une formation <strong>de développeur web et web
@@ -86,14 +93,14 @@
 <section class="atouts" id="atouts">
 
   <!-- STRENGHTS TITLE -->
-  <div class="title">
+  <div class="title reveal">
     <h2 class="section-title">Mes Atouts</h2>
   </div>
 
   <div class="services-center container">
     <!-- ATOUT -->
     <!-- ATOUT ONE -->
-    <div class="service">
+    <div class="service reveal">
       <span><i class="fas fa-pencil-alt"></i></span>
       <h3>WEB DESIGN</h3>
       <p>Développement de partie Front-End. <br><br>
@@ -103,7 +110,7 @@
     </div>
 
     <!-- ATOUT TWO -->
-    <div class="service">
+    <div class="service reveal">
       <span><i class="fas fa-laptop-code"></i></span>
       <h3>DÉVELOPPEMENT WEB</h3>
       <p>Développement de la partie Back-End.<br><br>
@@ -113,7 +120,7 @@
     </div>
 
     <!-- ATOUT THREE -->
-    <div class="service">
+    <div class="service reveal">
       <span></span>
       <h3>WEB DESIGN</h3>
       <p>Développement de partie Front-End. <br><br>
@@ -129,7 +136,7 @@
 <section class="projet" id="projet">
 
   <!-- TITLE SECTION -->
-  <div class="title">
+  <div class="title reveal">
     <h2 class="section-title">Mes Projets</h2>
     <span class="section__subtitle">Le travail le plus récent</span>
   </div>
@@ -137,7 +144,7 @@
   <!-- PROJETS -->
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 reveal">
         <div class="card" style="width: 20rem;">
           <a href="https://vladislav-gavrilov.fr/" target="_blank" title="En savoir plus">
             <img src="/images/first_site_exam.png" class="card-img-top" alt="Projet Travel Planet">
@@ -183,7 +190,7 @@
 <section class="contact" id="contact">
 
   <!-- TITLE SECTION -->
-  <div class="title">
+  <div class="title reveal">
     <h2 class="section-title">CONTACTEZ-MOI!</h2>
   </div>
 
@@ -191,7 +198,7 @@
   <div class="contact-center container">
 
     <!-- LEFT CONTACT -->
-    <div class="left">
+    <div class="left reveal">
       <h2>Entrer en contact</h2>
       <p>N'hésitez pas à prendre contact avec moi pour en savoir plus</p>
 
@@ -229,7 +236,7 @@
     </div>
 
     <!-- RIGHT -->
-    <div class="right">
+    <div class="right reveal">
       <form class="form">
         <h2>Envoyez-moi un message</h2>
         <div>
@@ -238,6 +245,7 @@
         </div>
         <input type="text" placeholder="Précisez l'objet de votre message..." required>
         <textarea name="" cols="30" rows="10" placeholder="Écrivez votre message ..." required></textarea>
+        <button type="button" class="btn btn-primary">Envoyer</button>
       </form>
     </div>
   </div>

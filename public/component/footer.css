@@ -1,0 +1,22 @@
+.footer {
+  background: linear-gradient(to bottom, #03e9f4, #1779ff);
+  color: #000;
+  text-align: center;
+  padding: 32px;
+}
+
+.footer .footer-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.footer p a {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
