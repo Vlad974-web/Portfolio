@@ -144,21 +144,23 @@
   <!-- PROJETS -->
   <div class="container">
     <div class="row">
+      <% projets.forEach(function(meliodas) { %>
       <div class="col-md-4 reveal">
         <div class="card" style="width: 20rem;">
-          <a href="https://vladislav-gavrilov.fr/" target="_blank" title="En savoir plus">
-            <img src="/images/first_site_exam.png" class="card-img-top" alt="Projet Travel Planet">
+          <a href="<%= meliodas.gitURL %>" target="_blank" title="En savoir plus">
+            <img src="/images/<%= meliodas.image %>" class="card-img-top" alt="Projet Travel Planet">
           </a>
           <div class="card-body">
-            <h5 class="card-title">dfdsfdsfsdsqdsqdsdsqdsdfsdfdsfdfsdfd</h5>
-            <p class="card-text">fdsfdfdsf</p>
-            <a href="https://vladislav-gavrilov.fr/" class="btn btn-primary" target="_blank" title="Voir le projet"
+            <h5 class="card-title"><%= meliodas.titre %></h5>
+            <p class="card-text"><%= meliodas.description %></p>
+            <a href="<%= meliodas.gitURL %>" class="btn btn-primary" target="_blank" title="Voir le projet"
               style="font-size: 15px;">
               Voir <i class="fas fa-arrow-right"></i>
             </a>
           </div>
         </div>
       </div>
+      <%});%>
     </div>
   </div>
   <!-- <div class="content">
