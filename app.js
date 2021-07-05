@@ -40,10 +40,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 /*------------------------- ROUTES -------------------------*/
 const indexRoute = require('./routes/indexRoute');
+const admin = require('./routes/admin/adminRoute');
 
 
 
 /*------------------------- URL ROUTES -------------------------*/
+app.use('/admin', admin);
 app.use('/', indexRoute);
 
 
