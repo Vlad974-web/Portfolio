@@ -3,5 +3,5 @@
 exports.getInscriptionPage = async (req, res) => {
 
   /* AFFICHER LA PAGE, inscription.ejs */
-  res.render('inscription')
+  res.render('admin/login')
 }
