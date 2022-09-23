@@ -5,7 +5,6 @@ const util = require('util');
 const app = express();
 
 
-
 // Middleware -> BodyParser
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
@@ -51,7 +50,7 @@ app.use('/', indexRoute);
 
 
 // Sur quel port functionnera application
-const port = 1996
+const port = 1994
 app.listen(port, () => {
     console.log(`ecoute Vlad, le port 1996, lancè à : ${new Date().toLocaleString()}, bon courage pour les codes!`);
 });
